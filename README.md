@@ -10,13 +10,13 @@ A "Virtual Keyboard using OpenCV" project is an innovative application that harn
 
 # Project Highlights:
 
-OpenCV Integration: The core of this project revolves around OpenCV, a versatile computer vision library. OpenCV is used to capture real-time video from a camera, process the video frames, and analyze hand movements.
+**OpenCV Integration:** The core of this project revolves around OpenCV, a versatile computer vision library. OpenCV is used to capture real-time video from a camera, process the video frames, and analyze hand movements.
 
-Gesture Recognition: The system is designed to recognize specific hand gestures and finger movements, translating them into corresponding keyboard inputs. For instance, tapping a finger on a virtual key or swiping the hand can simulate key presses.
+**Gesture Recognition:** The system is designed to recognize specific hand gestures and finger movements, translating them into corresponding keyboard inputs. For instance, tapping a finger on a virtual key or swiping the hand can simulate key presses.
 
-Virtual Keyboard Interface: Users interact with a virtual keyboard displayed on a screen. This interface allows users to see the keys they select. When the system detects a hand gesture associated with a specific key, it emulates a keyboard input, effectively enabling users to type and communicate.
+**Virtual Keyboard Interface:** Users interact with a virtual keyboard displayed on a screen. This interface allows users to see the keys they select. When the system detects a hand gesture associated with a specific key, it emulates a keyboard input, effectively enabling users to type and communicate.
 
-Touchless Interaction: The project offers a touchless and more hygienic way of interfacing with devices, which is particularly valuable in situations where physical keyboards may not be practical or safe.
+**Touchless Interaction:** The project offers a touchless and more hygienic way of interfacing with devices, which is particularly valuable in situations where physical keyboards may not be practical or safe.
 
 In essence, a "Virtual Keyboard using OpenCV" is an exciting intersection of computer vision and human-computer interaction, offering an innovative and touchless solution for typing and input.
 
