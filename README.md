@@ -1,4 +1,4 @@
-# virtual-keyboard-using-opencv
+# Virtual Keyboard Project using OpenCV
 
 The most widely used library for computer vision is known as OpenCV; it is a cross-platform open-source library for machine learning, image processing, etc. that is used to create real-time computer vision applications.
 
