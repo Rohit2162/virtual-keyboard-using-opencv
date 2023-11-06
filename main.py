@@ -1,3 +1,4 @@
+import streamlit as st
 import cv2
 from cvzone.HandTrackingModule import HandDetector
 from time import sleep
@@ -6,7 +7,7 @@ from pynput.keyboard import Controller
 cap = cv2.VideoCapture(0, cv2.CAP_DSHOW)
 cap.set(cv2.CAP_PROP_FRAME_WIDTH, 1280)
 cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 720)
-detector = HandDetector(detectionCon=1)
+detector = HandDetector(detectionCon=0.9)
 
 keys = [
     ["Q", "W", "E", "R", "T", "Y", "U", "I", "O", "P"],
@@ -102,5 +103,17 @@ while True:
     # img = myButton1.draw(img)
     # img = myButton2.draw(img)
     # img = myButton3.draw(img)
-    cv2.imshow("camera", img)
+    cv2.imshow("Camera Feed", img)
     cv2.waitKey(1)
+
+st.title("Virtual Keyboard App")
+
+# Create Streamlit widgets for user interaction
+text_input = st.text_input("Enter text:")
+virtual_keyboard_button = st.button("Show Virtual Keyboard")
+
+if virtual_keyboard_button:
+    # Call your OpenCV virtual keyboard code here
+    # and display the result
+    st.write("Virtual Keyboard Output: ")
+    # Call your OpenCV functions here and display the result
